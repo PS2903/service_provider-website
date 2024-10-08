@@ -1,0 +1,402 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Service Provider</title>
+
+    <link rel="icon" type="icon" href="favicon.png"> 
+
+    <!-- code for font aewsome cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- code for linking css -->
+    <link rel="stylesheet" href="Stylemain.css">
+
+     <!-- code has been taken from swiperjs.com and it needs internet cnnctn -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+    <!-- code for header section -->
+    <header class="header">
+        <a href="#" class="logo"><i class="fa fa-cogs" aria-hidden="true"></i>Service Provider</a>
+        
+        <nav class="navbar">
+            <a href="#Home">Home</a>
+            <a href="#Features">Features</a>
+            <a href="#Services">Services</a>
+            <a href="#Reviews">Reviews</a>
+            <a href="#Blogs">Blogs</a>
+        </nav>
+
+        <div class="icons">
+            <div class="fa fa-bars" id="menu-btn"></div>
+            <div class="fa fa-map-marker" id="map-btn"></div>
+            <div class="fa fa-shopping-cart" id="cart-btn"></div>
+            <div class="fa fa-users" id="login-btn"></div>
+        </div>
+
+        <form class="search-form">
+            <input type="Location" id="Search-box" placeholder="Enter your Location here...">
+            <label for="Search-box" class="fa fa-search"></label>
+        </form>
+
+        <div class="service-cart">
+            <div class="box">
+                <i class="fa fa-trash"></i>
+                <img src="plumb.jpg " style="width:60px;height:60px;">
+                <div class="content">
+                    <h3>Plumber</h3>
+                    <span class="price">Rs350/hr.-</span>
+                    <span class="number">num : 1</span>
+                </div>
+            </div>
+
+            <div class="box">
+                <i class="fa fa-trash"></i>
+                <img src="elect.jpg" style="width:60px;height:60px;">
+                <div class="content">
+                    <h3>Electrician</h3>
+                    <span class="price">300Rs/hr.-</span>
+                    <span class="number">num : 1</span>
+                </div>
+            </div>
+
+            <div class="box">
+                <i class="fa fa-trash"></i>
+                <img src="carp.jpg" style="width:60px;height:60px;">
+                <div class="content">
+                    <h3>carpenter</h3>
+                    <span class="price">400Rs/hr.-</span>
+                    <span class="number">num : 1</span>
+                </div>
+            </div>
+
+            <div class="box">
+                <i class="fa fa-trash"></i>
+                <img src="painter.jpg" style="width:60px;height:60px;">
+                <div class="content">
+                    <h3>Painter</h3>
+                    <span class="price">350Rs/hr.-</span>
+                    <span class="number">num : 1</span>
+                </div>
+            </div>
+
+            <div class="total">total:Rs1400 </div>
+            <a href="#" class="btn">checkout</a>
+
+        </div>
+
+      
+        <form action="#" class="login-form">
+            <h3>login now</h3>
+            <input type= "email" placeholder=" your email" class="box">
+            <input type= "password" placeholder=" your password" class="box">
+
+        <p>forgot your password <a href="#"> click here</a></p>
+        <p>don't have an account <a href="#"> create now</a></p>
+
+            <input type="submit" value="login now" class="btn">
+
+        </form>
+    </header>
+
+
+
+    <!-- banner section -->
+     
+    <section class="home" id="Home">
+        <div class="content">
+            <h3>Necessary <span>services</span> for you</h3>
+            <p>This website is designed to provide the necessary and basic services to provide ease .</p>
+
+            <a href="#" class="btn"><btn onclick="location.href='Book.html'"></button>Book now</a>
+
+        </div>
+    </section>
+
+
+    <!-- feature section -->
+    <section class="features" id="Features">
+        <h1 class="heading"> our <span>features</span></h1>
+
+        <div class="box-container">
+            <div class="box">
+                <img src="banner8.jpg">
+                <h3>Services</h3>
+                <p>Essential household services are available here!</p>
+
+                <a href="#" class="btn"><btn onclick="location.href='services.html'"></button>Read more</a>
+            </div>
+
+            <div class="box">
+                <img src="service.png">
+                <h3>home service</h3>
+                <p>home services are available!</p>
+
+                <a href="#" class="btn"><btn onclick="location.href='homeservice.html'"></button>Read more</a>
+            </div>
+
+            <div class="box">
+                <img src="pay2.jpg">
+                <h3>easy payements</h3>
+                <p>All the available payements gateways!</p>
+
+                <a href="#" class="btn"><btn onclick="location.href='payment.html'"></button>Read more</a>
+            </div>
+        </div>
+
+    </section>
+
+
+    <!-- services section -->
+    <section class="services" id="Services">
+        <h1 class="heading"> our <span>services</span></h1>
+        <div class="swiper services-slider">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide box">
+                    <img src="Household.jpg">
+                    <h1>Household services</h1>
+                    <div class="stars">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-half"></i>
+                    </div>
+                    <a href="#" class="btn"><btn onclick="location.href='indexmain2.html'"></button>Explore services</a>
+                </div>
+
+                <div class="swiper-slide box">
+                    <img src="medical.jpg">
+                    <h1>Medical services</h1>
+                    <div class="stars">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="none"></i>
+                    </div>
+                    <a href="#" class="btn"><btn onclick="location.href='medical.html'"></button>Explore services</a>
+                </div>
+
+                <div class="swiper-slide box">
+                    <img src="education.jpg">
+                    <h1>Educational Services</h1>
+                    <div class="stars">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-half"></i>
+                    </div>
+                    <a href="#" class="btn"><btn onclick="location.href='education.html'"></button>Explore services</a>
+                </div>
+
+                <div class="swiper-slide box">
+                    <img src="Garden.jpg">
+                    <h1>Gardening services</h1>
+                    <div class="stars">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-half"></i>
+                    </div>
+                    <a href="#" class="btn"><btn onclick="location.href='garden.html'"></button>Explore services</a>
+                </div>
+
+                <div class="swiper-slide box">
+                    <img src="parlour.webp">
+                    <h1>Parlour Services</h1>
+                    <div class="stars">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-half"></i>
+                    </div>
+                    <a href="#" class="btn"><btn onclick="location.href='parlour.html'"></button>Explore services</a>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+
+    <!-- reviews section -->
+    <section class="reviews" id="Reviews">
+        <h1 class="heading"> customers's <span>reviews</span></h1>
+        <div class="swiper reviews-slider">
+            <div class="swiper-wrapper">
+                <div class=" swiper-slide box">
+                    <img src="cust1.jpg">
+                    <p>Reached in time.Solved the issue and explained excatly what has happened and what can be done if the issue arises again.Thankyou so much.</p>
+                    <h3>Neeraj Jha</h3>
+                    <div class="stars">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                    </div>
+                </div>
+
+                <div class=" swiper-slide box">
+                    <img src="cust2.jpg">
+                    <p>Reached in time.Solved the issue and explained excatly what has happened and what can be done if the issue arises again.Thankyou so much.</p>
+                    <h3>Beena Kamath</h3>
+                    <div class="stars">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                    </div>
+                </div>
+
+                <div class=" swiper-slide box">
+                    <img src="cust3.jpg">
+                    <p>Excellent.Very polite though he was 20 minutes late.But was not an issue.He was skilled in his field.He understood the issue and fixed the problem within short time.</p>
+                    <h3>Atasi chatterjee</h3>
+                    <div class="stars">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="none"></i>
+                    </div>
+                </div>
+
+                <div class=" swiper-slide box">
+                    <img src="cust4..png">
+                    <p>Fully satisfied.He was very soft spoken and courteous.He has great experience and expertise in the work and does the job to our satisfaction.I highly recommend him.</p>
+                    <h3>Swapana Dixit</h3>
+                    <div class="stars">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-half"></i>
+                    </div>
+                </div>
+
+                <div class=" swiper-slide box">
+                    <img src="cust5.jpg">
+                    <p>He was very proffesional and polite. He patiently identified the problem and resolved the issue and successfully completed the job.I recommend his services to everyone.</p>
+                    <h3>Rehana Parihar</h3>
+                    <div class="stars">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div style="text-align:center;"class="swiper-slide box">
+            <a style="text-align: center;" href="#" class="btn">Add your Review</a>
+        </div>
+    </section>
+
+
+    <!-- blogs section -->
+    <section class="blogs" id="Blogs">
+        <h1 class="heading"> our <span>blogs</span></h1>
+        <div class="box-container">
+            <div class="box">
+                <img src="blog1.jpg">
+                <div class="content">
+                    <div class="icons">
+                        <a href="#"><i class="fa fa-user"></i> by user</a>
+                        <a href="#"><i class="fa fa-calendar"></i> 1st may, 2023</a>
+                    </div>
+                    <h3>House service provider aim</h3>
+                    <p>At Service Provider,we are dedicated to delivering a comprehensive range of home services designed to meet the diverse needs of our clients. Our primary goal is to ensure your home remains a functional, comfortable, and aesthetically pleasing space. We specialize in providing expert solutions for plumbing, electrical, carpentry, and painting needs.</p>
+                    <a href="#" class="btn">Read more</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="blog2.jpg">
+                <div class="content">
+                    <div class="icons">
+                        <a href="#"><i class="fa fa-user"></i> by user</a>
+                        <a href="#"><i class="fa fa-calendar"></i> 22st june, 2023</a>
+                    </div>
+                    <h3>House service provider work</h3>
+                    <p>Our team of licensed and experienced plumbers is ready to handle everything from minor leaks and blocked drains to complex installations and repairs. In the realm of electrical services, our certified electricians are equipped to manage all types of electrical issues, including wiring, circuit breakers, lighting installations, and emergency repairs. Our skilled carpenters offer a wide range of services, from custom furniture and cabinetry to repairs and installations.For painting services, our professional painters are committed to transforming your space with precision and care. </p>
+                    <a href="#" class="btn">Read more</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="blog5.png">
+                <div class="content">
+                    <div class="icons">
+                        <a href="#"><i class="fa fa-user"></i> by user</a>
+                        <a href="#"><i class="fa fa-calendar"></i> 2march, 2024</a>
+                    </div>
+                    <h3>House service provider achievement</h3>
+                    <p>At Service Provider , we pride ourselves on delivering top-tier service, transparent pricing, and a steadfast commitment to customer satisfaction. Whether you need a quick fix, a major repair, or a complete home makeover, Service Provider is your trusted partner for all your home service needs. Experience the peace of mind that comes with professional, reliable home services.</p>
+                    <a href="#" class="btn">Read more</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- footer section -->
+    <section class="footer">
+        <div class="box-container">
+            <div class="box">
+                <h3>Service<i class="fa fa-cogs"></i></h3>
+                <p>Feel free to follow us on our social medi handlers all the links are given below.</p>
+                <div class="share">
+                    <a href="#" class="fa fa-facebook"></a>
+                    <a href="#" class="fa fa-twitter"></a>
+                    <a href="#" class="fa fa-instagram"></a>
+                    <a href="#" class="fa fa-linkedin"></a>
+                </div>
+            </div>
+
+
+            <div class="box">
+                <h3> contact info </h3>
+                <a href="#" class="fa fa-links"><i class="fa fa-phone"></i> +918292131589</a>
+                <a href="#" class="fa fa-links"><i class="fa fa-phone"></i> +919014560967</a>
+                <a href="#" class="fa fa-links"><i class="fa fa-envelope"></i> serviceprovider29@gmail.com</a>
+                <a href="#" class="fa fa-links"><i class="fa fa-map-marker"></i> Ranchi-834001,India</a>
+                </div>
+
+            <div class="box">
+                <h3> Quick links </h3>
+                <a href="#" class="fa fa-links"><i class="fa fa-arrow-right"></i> home</a>
+                <a href="#" class="fa fa-links"><i class="fa fa-arrow-right"></i> features</a>
+                <a href="#" class="fa fa-links"><i class="fa fa-arrow-right"></i> services</a>
+                <a href="#" class="fa fa-links"><i class="fa fa-arrow-right"></i> reviews</a>
+                <a href="#" class="fa fa-links"><i class="fa fa-arrow-right"></i> blogs</a>
+                </div>
+
+            <div class="box">
+                <h3> Newsletter </h3>
+                <p> subscribe for latest updates</p>
+                <input type="email" placeholder="your email" class="email">
+                <input type="submit" value=" subscribe" class="btn">
+                <br>
+                <img src=" payment.jpg" class="payment-img">
+                </div>
+        </div>
+
+
+        <div class="credit">created by <span>Prerna Singh</span> | All Rights Reserved</div>
+    </section>
+
+<!-- this code has been taken from swiperjs.com -->
+<script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+
+<script src="script.js"></script>
+    
+</body>
+</html>
